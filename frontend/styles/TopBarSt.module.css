@@ -1,0 +1,37 @@
+.TopBarContainer{
+    background-color: white;
+    padding: 0.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    position: absolute;
+    width: 1512px;
+    height: 102px;
+    background: #FFFFFF
+}
+
+.cryptovapeSection{
+    position: absolute;
+width: 432px;
+height: 76px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 55px;
+display: flex;
+align-items: center;
+
+color: #1E1E1E;
+}
+
+.Icon {
+    position: absolute;
+width: 96.24px;
+height: 81.39px;
+left: 42.37px;
+top: 0px;
+background:url('../assets/cvnavbar.svg') ;
+transform: matrix(0.88, 0.31, -0.57, 0.93, 0, 0);
+}
